@@ -2,5 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 pre {
-    white-space: pre-wrap
+    white-space: pre-wrap;
+    color: black;
+    background-color: transparent;
 }
