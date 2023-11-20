@@ -65,6 +65,8 @@ def lambda_handler(event, context):
     res = qa({"question": human_input})
 
     logger.info(res)
+    
+    res["answer"] = res["answer"].replace('\n', '<br />')
 
     return {
         "statusCode": 200,
