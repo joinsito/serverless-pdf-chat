@@ -34,7 +34,7 @@ const ChatMessages: React.FC<ChatMessagesProps> = ({
               key={i}
             >
               <div className="prose">
-                <p>{message.data.content}</p>
+                <p><pre>{message.data.content}</pre></p>
               </div>
             </div>
           ))}
