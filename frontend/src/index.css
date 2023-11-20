@@ -3,6 +3,6 @@
 @tailwind utilities;
 pre {
     white-space: pre-wrap;
-    color: black;
-    background-color: transparent;
+    color: black !important;
+    background-color: transparent !important;
 }
